@@ -1,4 +1,4 @@
-# glances
+# tiles
 
 A heads-up dashboard for displaying thing-statuses.
 
@@ -6,13 +6,15 @@ A heads-up dashboard for displaying thing-statuses.
 
 ## Demo
 
-Example: https://github.com/nicinabox/glances-example
+Tiles does not yet host its own demo. The example and demo below belong
+to the original `glances` project and are kept here for reference:
 
-Demo: https://glances-example.herokuapp.com/
+* Example: https://github.com/nicinabox/glances-example
+* Demo: https://glances-example.herokuapp.com/ (may be offline)
 
 ## Overview
 
-Glances is designed to be displayed on a monitor and works primarily over websockets. Built with React and Socket.io for lightning fast updates.
+Tiles is designed to be displayed on a monitor and works primarily over websockets. Built with React and Socket.io for lightning fast updates.
 
 ### Features
 
@@ -28,6 +30,10 @@ Glances is designed to be displayed on a monitor and works primarily over websoc
 2. `echo "require('tiles')()" > server.js`
 3. Add tiles to `tiles/`
 4. Start your server: `npm start`
+
+> **Note:** The `npm install -S tiles` step assumes this fork has been
+> published to npm under the name `tiles`. That has not happened yet.
+> Until it is, clone this repository and run it from source instead.
 
 ## Tile Anatomy
 
@@ -136,7 +142,7 @@ See [NEXT.md](NEXT.md) for brainstorming on upcoming todos.
 
 ## Prior Art
 
-Glances was inspired by, and borrows heavily from [Dashing](http://dashing.io/) by Shopify.
+Tiles continues the `glances` project, which was inspired by, and borrows heavily from [Dashing](http://dashing.io/) by Shopify.
 
 ## Project history
 
