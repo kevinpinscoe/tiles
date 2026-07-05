@@ -26,14 +26,16 @@ Tiles is designed to be displayed on a monitor and works primarily over websocke
 
 ## Basic Usage
 
-1. `npm install -S tiles`
-2. `echo "require('tiles')()" > server.js`
+1. `npm install -S @kevinpinscoe/tiles`
+2. `echo "require('@kevinpinscoe/tiles')()" > server.js`
 3. Add tiles to `tiles/`
 4. Start your server: `npm start`
 
-> **Note:** The `npm install -S tiles` step assumes this fork has been
-> published to npm under the name `tiles`. That has not happened yet.
-> Until it is, clone this repository and run it from source instead.
+> **Note:** This package publishes to npm as the scoped package
+> `@kevinpinscoe/tiles` (the bare name `tiles` is owned by another
+> author). Releases are published automatically by CI when a `vX.Y.Z`
+> tag is pushed — see [`.github/workflows/publish.yml`](.github/workflows/publish.yml).
+> Until the first release tag is pushed, install from source instead.
 
 ## Tile Anatomy
 
