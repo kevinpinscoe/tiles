@@ -1,5 +1,5 @@
 {
-  "name": "glances-app",
+  "name": "tiles",
   "version": "2.1.1",
   "description": "A heads-up dashboard for displaying thing-statuses",
   "main": "index.js",
@@ -12,8 +12,11 @@
     "dashboard",
     "hud"
   ],
-  "author": "nicinabox",
-  "repository": "https://github.com/nicinabox/glances",
+  "author": "Kevin Inscoe",
+  "contributors": [
+    "nicinabox (original author)"
+  ],
+  "repository": "https://github.com/kevinpinscoe/tiles",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.2",

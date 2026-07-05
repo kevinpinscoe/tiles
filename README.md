@@ -24,8 +24,8 @@ Glances is designed to be displayed on a monitor and works primarily over websoc
 
 ## Basic Usage
 
-1. `npm install -S glances-app`
-2. `echo "require('glances-app')()" > server.js`
+1. `npm install -S tiles`
+2. `echo "require('tiles')()" > server.js`
 3. Add tiles to `tiles/`
 4. Start your server: `npm start`
 
@@ -137,3 +137,12 @@ See [NEXT.md](NEXT.md) for brainstorming on upcoming todos.
 ## Prior Art
 
 Glances was inspired by, and borrows heavily from [Dashing](http://dashing.io/) by Shopify.
+
+## Project history
+
+This project is an independent continuation of
+[nicinabox/glances](https://github.com/nicinabox/glances).
+
+The original project was created by nicinabox and distributed under
+the ISC License. This fork preserves the original Git history and
+continues development under the ISC License.
