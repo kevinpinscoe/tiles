@@ -2,3 +2,20 @@ node_modules
 public/*.js*
 public/*.css
 tiles
+
+# Editor, OS, tooling, and language artifacts (never commit)
+**/resume.sh
+**/resume.txt
+**/.DS_Store
+**/.claude
+**/.claude/settings.local.json
+**/.codex
+**/.trash/
+**/.obsidian/workspace.json
+**/.obsidian/graph.json
+**/.obsidian/plugins/*/data.json
+**/*.swp
+**/Thumbs.db
+**/*.pyc
+**/*.pyo
+**/__pycache__/
